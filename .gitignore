@@ -1,0 +1,8 @@
+.env
+.env.*
+node_modules/
+*.log
+dist/
+build/
+.vscode/
+.idea/

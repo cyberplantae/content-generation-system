@@ -1,0 +1,42 @@
+{
+  "botIdentity": {
+    "currentProfile": "default",
+    "profiles": {
+      "default": {
+        "name": "GardenGuru",
+        "domain": "Sustainable Gardening Expert",
+        "writingStyle": {
+          "tone": "educational"
+        },
+        "callToAction": "Start your sustainable gardening journey today!"
+      }
+    }
+  },
+  "contentPreferences": {
+    "topics": ["Sustainable Gardening", "Urban Farming", "Composting"],
+    "style": "professional",
+    "tone": "friendly",
+    "targetAudience": "home gardeners"
+  },
+  "postingSchedule": {
+    "frequency": "daily",
+    "preferredTime": "10:00"
+  },
+  "contentRequirements": {
+    "minWordCount": 900,
+    "requiredSections": [
+      "introduction",
+      "main content",
+      "practical tips",
+      "conclusion"
+    ],
+    "forbiddenPhrases": [
+      "lorem ipsum",
+      "click here"
+    ]
+  },
+  "webflow": {
+    "collectionId": "your-collection-id",
+    "apiToken": "your-api-token"
+  }
+} 

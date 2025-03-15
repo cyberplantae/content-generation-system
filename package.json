@@ -1,0 +1,33 @@
+{
+  "name": "hermes.blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/inquirer": "^8.2.10",
+    "@types/node": "^22.13.10",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "inquirer": "^8.2.6",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.87.3",
+    "pexels": "^1.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2",
+    "unsplash-js": "^7.0.19"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0"
+  }
+}
